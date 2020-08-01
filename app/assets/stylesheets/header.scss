@@ -1,0 +1,23 @@
+.menu{
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  h1{
+    margin-left: 100px;
+    font-family: cursive;
+    transform: scale(3.5,2);
+    line-height: 140px;
+  }
+  &__btn{
+    &--1{
+      @include header_btn();
+    }
+    &--2{
+      @include header_btn();
+    }
+    &__3{
+      @include header_btn();
+    }
+  }
+}
