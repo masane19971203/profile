@@ -4,9 +4,11 @@
     position: absolute;
     top: 0px;
     &__image{
-      width: 100vw;
-      height: auto;
-      position: relative;
+      &--item{
+        width: 100vw;
+        height: auto;
+        position: relative;
+      }
     }
     h1{
       color: white;
