@@ -1,4 +1,4 @@
-.menu{
+@mixin white_all(){
   position: fixed;
   height: 140px;
   display: flex;
@@ -12,13 +12,11 @@
   }
   &__btn{
     &--1{
-      @include header_btn();
-    }
-    &--2{
-      @include header_btn();
-    }
-    &__3{
-      @include header_btn();
+      text-decoration: none;
+      color: black;
+      margin-right: 50px;
+      line-height: 140px;
+      font-size: large;
     }
   }
 }

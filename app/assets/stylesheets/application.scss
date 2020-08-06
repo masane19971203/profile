@@ -1,5 +1,7 @@
 @import "reset";
-@import "mixin/mixin-header";
+@import "mixin/mixin-white";
+@import "mixin/mixin-black";
 @import "modules/index.scss";
-@import "header";
+@import "modules/black_header.scss";
+@import "modules/white_header";
 @import "modules/aboutme.scss";

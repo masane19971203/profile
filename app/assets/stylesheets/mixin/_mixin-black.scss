@@ -1,0 +1,24 @@
+@mixin black_all(){
+  position: fixed;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: black;
+  h1{
+    margin-left: 100px;
+    letter-spacing: 2px;
+    transform: scale(2.2);
+    line-height: 140px;
+    color: white;
+  }
+  &__btn{
+    &--1{
+      text-decoration: none;
+      color: white;
+      margin-right: 50px;
+      line-height: 140px;
+      font-size: large;
+    }
+  }
+}
