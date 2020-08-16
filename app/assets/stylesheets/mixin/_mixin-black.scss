@@ -1,9 +1,10 @@
 @mixin black_all(){
   position: fixed;
+  top: 0px;
+  width: 100vw;
   height: 140px;
   display: flex;
   justify-content: space-between;
-  position: relative;
   background-color: black;
   h1{
     margin-left: 100px;

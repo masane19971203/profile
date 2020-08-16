@@ -1,13 +1,9 @@
 .myself{
-  position: relative;
-  // overflow: scroll;
+  overflow: scroll;
   &__main{
-    position: absolute;
-    top: 0px;
     &__image{
-        width: 100vw;
-        height: auto;
-        position: relative;
+      margin-top: 150px;
+      width: 100vw;
     }
   }
 }

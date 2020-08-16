@@ -1,18 +1,22 @@
 .aboutme{
   background-color: black;
   &__main{
-    text-align: end;
-    // text-align: center;
-    // h1{
-    //   padding: 40px 0px;
-    //   font-size: 40px;
-    //   font-family: Arial, sans-serif;
-    //   color: white;
-    // }
+    display: flex;
+    justify-content: space-between;
+    &__word{
+      padding: 550px 0px 0px 155px;
+      h1{
+        color: white;
+        font-size: 24px;
+      }
+      h2{
+        color:white;
+      }
+    }
     &__img{
-      width: 390px;
+      width: 465px;
       height: 650px;
-      padding: 135px 200px 0px 0px;
+      margin: 220px 200px 110px 0px;
     }
   }
 }

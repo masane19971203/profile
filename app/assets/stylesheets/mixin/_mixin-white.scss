@@ -1,9 +1,11 @@
 @mixin white_all(){
+  background-color: white;
   position: fixed;
+  top: 0px;
+  width: 100vw;
   height: 140px;
   display: flex;
   justify-content: space-between;
-  position: relative;
   h1{
     margin-left: 100px;
     font-family: cursive;
